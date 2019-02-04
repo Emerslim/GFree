@@ -16,7 +16,7 @@ export default {
                 }})
                 .then(
                     result => {
-                        return result.data.report.food
+                        return result.data.report.food || {}; // TODO: reformat into custom definition
                     }, 
                     error => {
                         console.log(error); // Logging service here

@@ -20,7 +20,7 @@ export default {
                 }})
                 .then(
                     result => {
-                        return result.data.list
+                        return result.data.list || {}; // TODO: reformat into custom definition
                     }, 
                     error => {
                         console.log(error); // Logging service here
