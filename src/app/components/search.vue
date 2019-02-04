@@ -41,7 +41,7 @@
 				this.foods = null;
 				this.search(this.keyword, this.page)
 					.then(result => {
-						this.foods = result;
+						this.foods = result || {};
 					})
 					.catch(error => {
 						this.error = "An error occurred during the search. Please try again.";

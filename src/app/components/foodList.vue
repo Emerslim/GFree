@@ -43,7 +43,6 @@ export default {
         },
         currentPage: function() {
             if (!this.foods) { return 0; }
-            console.log(this.foods);
             return Math.floor(this.foods.start/this.foods.item.length);
         }
     },
