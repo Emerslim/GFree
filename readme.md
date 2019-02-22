@@ -12,11 +12,17 @@ To Run
 Requires Node.js installed
 
 1. Install dependences
+
   npm update
+  
 2. Build
+
   npm run build
+  
 3. Serve
+
   npm run serve
+  
 4. Navigate to http://localhost:3000
 
 Notes
