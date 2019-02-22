@@ -14,19 +14,19 @@ Requires Node.js installed
 1. Install dependences
 
     ```
-    **npm update**
+    npm update
     ```
   
 2. Build
 
     ```
-    **npm run build**
+    npm run build
     ```
   
 3. Serve
 
     ```
-    **npm run serve**
+    npm run serve
     ```
   
 4. Navigate to http://localhost:3000
