@@ -1,0 +1,10 @@
+{
+    "development": {
+        "FOOD_SERVICE_ENDPOINT": "https://api.nal.usda.gov/ndb/",
+        "FOOD_SERVICE_TOKEN": "<SECRET>"
+    },
+    "production": {
+        "FOOD_SERVICE_ENDPOINT": "https://api.nal.usda.gov/ndb/",
+        "FOOD_SERVICE_TOKEN": "<SECRET>"
+    }
+}
